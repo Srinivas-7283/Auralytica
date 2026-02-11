@@ -6,6 +6,7 @@ import {
   Briefcase, Building2, MapPin, Calendar, Clock, DollarSign,
   Users, ArrowRight, Plus, Archive, Edit3
 } from 'lucide-react';
+import { useEffect, useState } from 'react';
 
 export default function ViewJobs() {
   const [jobs, setJobs] = useState([]);
